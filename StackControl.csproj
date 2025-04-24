@@ -1,0 +1,73 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Version>1.0.3</Version>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="src/StackControl.cs" />
+    <Compile Include="src/Config.cs" />
+    <Compile Include="src/PluginInfo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+        <Reference Include="MelonLoader">
+            <HintPath>libs/MelonLoader.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.IMGUIModule">
+            <HintPath>libs/UnityEngine.IMGUIModule.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.TextRenderingModule">
+            <HintPath>libs/UnityEngine.TextRenderingModule.dll</HintPath>
+        </Reference>
+        <Reference Include="Assembly-CSharp">
+            <HintPath>libs/Assembly-CSharp.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.CoreModule">
+            <HintPath>libs/UnityEngine.CoreModule.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.UI">
+            <HintPath>libs/UnityEngine.UI.dll</HintPath>
+        </Reference>
+        <Reference Include="0Harmony">
+            <HintPath>libs/0Harmony.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine">
+            <HintPath>libs/UnityEngine.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.InputModule">
+            <HintPath>libs/UnityEngine.InputModule.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.InputLegacyModule">
+            <HintPath>libs/UnityEngine.InputLegacyModule.dll</HintPath>
+        </Reference>
+        <Reference Include="Unity.TextMeshPro">
+            <HintPath>libs/Unity.TextMeshPro.dll</HintPath>
+        </Reference>                       
+        <Reference Include="Il2CppSystem">
+            <HintPath>libs/Il2CppSystem.dll</HintPath>
+        </Reference>
+        <Reference Include="Il2CppSystem.Core">
+            <HintPath>libs/Il2CppSystem.Core.dll</HintPath>
+        </Reference>
+        <Reference Include="Il2Cppmscorlib">
+            <HintPath>libs/Il2Cppmscorlib.dll</HintPath>
+        </Reference>
+        <Reference Include="Unity.Collections">
+            <HintPath>libs/Unity.Collections.dll</HintPath>
+        </Reference>
+        <Reference Include="Il2CppInterop.Runtime">
+            <HintPath>libs/Il2CppInterop.Runtime.dll</HintPath>
+        </Reference>
+        <Reference Include="Il2CppInterop.Common">
+            <HintPath>libs/Il2CppInterop.Common.dll</HintPath>
+        </Reference>
+        <Reference Include="Il2CppFishNet.Runtime">
+            <HintPath>libs/Il2CppFishNet.Runtime.dll</HintPath>
+        </Reference>
+    </ItemGroup>
+</Project>

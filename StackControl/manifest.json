@@ -1,0 +1,10 @@
+{
+    "name": "StackControl",
+    "version_number": "1.0.4",
+    "website_url": "https://diumstream.dium-corp.com/",
+    "Author": "DiumStream",
+    "description": "StackControl improves inventory management with a configurable scroll system (1-20) and a customizable stack limit (1-999) via Ctrl + right click",
+    "dependencies": [
+        "LavaGang-MelonLoader-0.7.0"
+    ]
+}
